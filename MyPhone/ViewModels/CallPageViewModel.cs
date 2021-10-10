@@ -31,10 +31,10 @@ namespace GoodTimeStudio.MyPhone.ViewModels
             set => SetProperty(ref _SelectionLength, value);
         }
 
-        public void ButtonCall_Click(object sender, RoutedEventArgs e)
-        {
-            DeviceManager.Call(PhoneNumber);
-        }
+        //public void ButtonCall_Click(object sender, RoutedEventArgs e)
+        //{
+        //    DeviceManager.Call(PhoneNumber);
+        //}
         
     }
 }

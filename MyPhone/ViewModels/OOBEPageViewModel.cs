@@ -38,16 +38,16 @@ namespace GoodTimeStudio.MyPhone.ViewModels
         {
             IsWorking = true;
 
-            if (await DeviceManager.ConnectTo(DListModel.SelectedDevice))
-            {
-                var settings = ApplicationData.Current.LocalSettings.Values;
-                settings["OOBE"] = false;
-                App.Navigate(typeof(MainPage));
-            }
-            else
-            {
-                //TODO: Notify user fail to connect
-            }
+            //if (await DeviceManager.ConnectTo(DListModel.SelectedDevice))
+            //{
+            //    var settings = ApplicationData.Current.LocalSettings.Values;
+            //    settings["OOBE"] = false;
+            //    App.Navigate(typeof(MainPage));
+            //}
+            //else
+            //{
+            //    //TODO: Notify user fail to connect
+            //}
 
             IsWorking = false;
         }

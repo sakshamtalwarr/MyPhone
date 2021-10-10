@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <StartupObject>MyPhone.Demo.PBAP</StartupObject>
+    <StartupObject>MyPhone.Demo.MAP</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
